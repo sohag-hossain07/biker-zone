@@ -15,7 +15,7 @@
 }
 
 /* large screen */
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1399px) {
   header {
     min-height: 100vh;
   }
@@ -26,7 +26,9 @@
   h1 {
     font-size: 3.5rem;
   }
+}
 
+@media screen and (min-width: 1400px) {
   /* header section */
   header {
     max-height: 800px;
