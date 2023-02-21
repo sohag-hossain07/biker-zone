@@ -1,5 +1,10 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Manrope&family=Poppins:wght@300;400&family=Roboto:wght@500;700&display=swap");
+
 /* css variables */
-:root {};
+:root {
+  --bg-green: #264653;
+}
 
 /* utilities */
 * {
@@ -14,16 +19,47 @@ html {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
 }
 
-.container {
-  max-width: 1140px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0 30px;
+.mg-top {
+  margin-top: 130px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: calc(1.475rem + 2.7vw);
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 ul li {
@@ -35,12 +71,103 @@ a {
   transition: 200ms;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  display: block;
+.button {
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  padding: 0.8rem 2.7rem;
+  border-radius: 0;
 }
 
+.section-header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+/* header section starts */
+header {
+  background-color: var(--bg-green);
+  color: #fff;
+}
+
+.menu-bar-icon i {
+  font-size: 2rem;
+}
+/* banner section starts */
+.banner-sub-header {
+  font-size: 0.9rem;
+}
+/* banner section ends */
+/* header section ends */
+/* testimonial section starts */
+.testimonial-box {
+  padding: 2.5rem 2rem;
+}
+
+.ratings i {
+  color: orangered;
+}
+
+.occupation {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+}
+/* testimonial section ends */
+/* frequently ask section starts */
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa;
+  background-color: rgb(233, 236, 239);
+  color: #191919;
+  box-shadow: none;
+}
+/* frequently ask section ends */
+/* footer section starts */
+footer {
+  font-family: "Manrope", sans-serif;
+  background-color: #191919;
+  color: #fff;
+  padding: 5rem 0;
+}
+
+footer a {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    "s s s s s s s s a a a a"
+    "c c c c c c c c a a a a";
+}
+
+.social-links {
+  grid-area: s;
+}
+
+.get-the-app {
+  grid-area: a;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.get-the-app a {
+  display: inline-block;
+  width: 130px;
+  margin-top: 10px;
+}
+
+.copy-right {
+  grid-area: c;
+}
 /*
-font-family: fira code, fira sans, fancy slider, cursive, satisfy, monospace, open sans, rubik, poppins, fantasy;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 */

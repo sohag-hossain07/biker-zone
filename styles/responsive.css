@@ -1,27 +1,43 @@
 /* extra small screen */
-@media screen and (max-width: 575px) {
-}
+@media screen and (max-width: 767px) {
+  .wrapper {
+    grid-template-areas:
+      "s s s s s s s s s s s s"
+      "a a a a a a a a a a a a"
+      "c c c c c c c c c c c c";
+    text-align: center;
+  }
 
-/* small screen */
-@media screen and (min-width: 576px) and (max-width: 767px) {
+  .get-the-app {
+    align-items: center;
+    margin: 2rem 0;
+  }
 }
-
-/* medium screen */
-@media screen and (min-width: 768px) and (max-width: 991px) {
-}
-
-/* ==================================================================== 
-                      large scree starts 
-==================================================================== */
 
 /* large screen */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
+  header {
+    min-height: 100vh;
+  }
 }
 
-/* extra large screen */
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
+/* extra large or above */
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  /* header section */
+  header {
+    max-height: 800px;
+  }
 }
 
-/* x-extra large screen */
-@media screen and (min-width: 1400px) {
-}
+/* 
+<i class="fa-regular fa-circle-question"></i>
+<i class="fa-solid fa-user"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-google"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-github"></i>
+ */

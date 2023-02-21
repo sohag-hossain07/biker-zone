@@ -14,16 +14,661 @@
 
     <!-- custom css file link -->
     <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- responsive file link -->
+    <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
   <body>
     <!-- header section starts -->
-    <header></header>
+    <header class="bg-body-secondary">
+      <!-- navigation section starts -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 py-sm-5">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span
+              class="menu-bar-icon navbar-toggler-icon d-flex align-items-center justify-content-center"
+              ><i class="fa-solid fa-bars text-white"></i
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item py-2 py-lg-0">
+                <a
+                  class="nav-link fw-semibold text-light text-center me-lg-3 active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item py-2 py-lg-0">
+                <a
+                  class="nav-link fw-semibold text-light text-center me-lg-3"
+                  href="#"
+                  >Shop</a
+                >
+              </li>
+              <li class="nav-item py-2 py-lg-0">
+                <a
+                  class="nav-link fw-semibold text-light text-center me-lg-3"
+                  href="#"
+                  >News</a
+                >
+              </li>
+              <li class="nav-item py-2 py-lg-0">
+                <a
+                  class="nav-link fw-semibold text-light text-center me-lg-3"
+                  href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item text-center py-2 py-lg-0 ms-lg-5">
+                <button class="btn btn-danger py-2 px-4 mt-0" type="submit">
+                  Log In
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner carousel section starts -->
+      <section class="pt-3">
+        <div class="container">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <!-- one -->
+              <div class="carousel-item active">
+                <div class="banner row g-5">
+                  <!-- banner description -->
+                  <div class="banner-description col-12 col-lg-6">
+                    <div
+                      class="d-flex flex-column align-items-start justify-content-center h-100"
+                    >
+                      <p class="banner-sub-header mb-1 fw-lighter">
+                        Computer-controlled digital transistorized with
+                        electronic advance
+                      </p>
+                      <h1>Honda CBR 300R</h1>
+
+                      <p>
+                        Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet.
+                      </p>
+
+                      <!-- button -->
+                      <button class="btn btn-danger button">Purchase</button>
+                    </div>
+                  </div>
+                  <!-- banner image -->
+                  <div class="banner-img col-12 col-lg-6">
+                    <img
+                      class="img-fluid"
+                      src="./images/header-bike.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- two -->
+              <div class="carousel-item">
+                <div class="banner row g-5">
+                  <!-- banner description -->
+                  <div class="banner-description col-12 col-lg-6">
+                    <div
+                      class="d-flex flex-column align-items-start justify-content-center h-100"
+                    >
+                      <p class="banner-sub-header mb-1 fw-lighter">
+                        Computer-controlled digital transistorized with
+                        electronic advance
+                      </p>
+                      <h1>Honda CBR 300R</h1>
+
+                      <p>
+                        Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet.
+                      </p>
+
+                      <!-- button -->
+                      <button class="btn btn-danger button">Purchase</button>
+                    </div>
+                  </div>
+                  <!-- banner image -->
+                  <div class="banner-img col-12 col-lg-6">
+                    <img
+                      class="img-fluid"
+                      src="./images/header-bike-2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- three -->
+              <div class="carousel-item">
+                <div class="banner row g-5">
+                  <!-- banner description -->
+                  <div class="banner-description col-12 col-lg-6">
+                    <div
+                      class="d-flex flex-column align-items-start justify-content-center h-100"
+                    >
+                      <p class="banner-sub-header mb-1 fw-lighter">
+                        Computer-controlled digital transistorized with
+                        electronic advance
+                      </p>
+                      <h1>Honda CBR 300R</h1>
+
+                      <p>
+                        Amet minim mollit non deserunt ullamco est sit aliqua
+                        dolor do amet sint. Velit officia consequat duis enim
+                        velit mollit. Exercitation veniam consequat sunt nostrud
+                        amet.
+                      </p>
+
+                      <!-- button -->
+                      <button class="btn btn-danger button">Purchase</button>
+                    </div>
+                  </div>
+                  <!-- banner image -->
+                  <div class="banner-img col-12 col-lg-6">
+                    <img
+                      class="img-fluid"
+                      src="./images/header-bike-3.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- banner carousel section ends -->
+      <!-- navigation section ends -->
+    </header>
     <!-- header section ends -->
     <!-- main section starts -->
-    <main></main>
+    <main>
+      <!-- future bike collection section starts -->
+      <section class="mg-top">
+        <div class="container">
+          <!-- section header -->
+          <div class="section-header">
+            <h2>Featured Bikes In This Year</h2>
+            <p
+              class="d-inline-block text-danger fw-normal border-bottom border-danger"
+            >
+              Best Bike Collection
+            </p>
+          </div>
+          <div class="row g-5 py-5">
+            <div class="col-12 col-md-6 col-lg-4">
+              <img
+                src="./images/feature-bike.jpg"
+                alt="image of future bike"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="./images/feature-bike.jpg"
+                alt="image of future bike"
+                class="img-fluid w-75"
+              />
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <img
+                src="./images/feature-bike.jpg"
+                alt="image of future bike"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- future bike collection section ends -->
+      <!-- latest news section starts -->
+      <section class="mg-top">
+        <div class="container">
+          <!-- section header -->
+          <div class="section-header">
+            <h2>Latest News</h2>
+          </div>
+
+          <!-- news section -->
+          <div class="row gy-5 gx-4">
+            <!-- one -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-news-box p-4 shadow-sm">
+                <!-- image -->
+                <img
+                  class="img-fluid"
+                  src="./images/bike-1.png"
+                  alt="image of bike"
+                />
+                <h3 class="mt-3">Ducati XDIAVEL S-73</h3>
+                <!-- description -->
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Eligendi, natus?
+                </p>
+                <!-- button -->
+                <button class="btn btn-primary py-2 px-4 rounded-0">
+                  Read More
+                </button>
+              </div>
+            </div>
+
+            <!-- two -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-news-box p-4 shadow-sm">
+                <!-- image -->
+                <img
+                  class="img-fluid"
+                  src="./images/bike-2.png"
+                  alt="image of bike"
+                />
+                <h3 class="mt-3">Motorcycles & Scooters</h3>
+                <!-- description -->
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Eligendi, natus?
+                </p>
+                <!-- button -->
+                <button class="btn btn-outline-primary py-2 px-4 rounded-0">
+                  Read More
+                </button>
+              </div>
+            </div>
+
+            <!-- three -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="single-news-box p-4 shadow-sm">
+                <!-- image -->
+                <img
+                  class="img-fluid"
+                  src="./images/bike-3.png"
+                  alt="image of bike"
+                />
+                <h3 class="mt-3">2021 Honda CBR500R</h3>
+                <!-- description -->
+                <p class="mb-4">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Eligendi, natus?
+                </p>
+                <!-- button -->
+                <button class="btn btn-outline-primary py-2 px-4 rounded-0">
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- latest news section ends -->
+      <!-- testimonial section starts -->
+      <section class="mg-top">
+        <div class="container">
+          <!-- section header -->
+          <div class="section-header">
+            <h2>Happy <span class="text-danger">Clients Says</span></h2>
+          </div>
+
+          <!-- happy clients says -->
+          <div class="row gy-5 gx-4">
+            <!-- one -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div
+                class="testimonial-box d-flex align-items-center justify-content-center flex-column shadow-lg"
+              >
+                <img
+                  class="img-fluid w-50 mb-4"
+                  src="./images/user-1.png"
+                  alt="client image"
+                />
+                <p class="text-center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Harum a debitis similique ipsam enim delectus.
+                </p>
+                <!-- ratings -->
+                <div class="ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+
+                <!-- name and occupation -->
+                <h5 class="mt-3">Muhammad Jaber</h5>
+                <span class="occupation">Web Developer</span>
+              </div>
+            </div>
+
+            <!-- two -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div
+                class="testimonial-box d-flex align-items-center justify-content-center flex-column shadow-lg"
+              >
+                <img
+                  class="img-fluid w-50 mb-4"
+                  src="./images/user-2.png"
+                  alt="client image"
+                />
+                <p class="text-center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Harum a debitis similique ipsam enim delectus.
+                </p>
+                <!-- ratings -->
+                <div class="ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+
+                <!-- name and occupation -->
+                <h5 class="mt-3">Muhammad Jaber</h5>
+                <span class="occupation">Web Developer</span>
+              </div>
+            </div>
+
+            <!-- three -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div
+                class="testimonial-box d-flex align-items-center justify-content-center flex-column shadow-lg"
+              >
+                <img
+                  class="img-fluid w-50 mb-4"
+                  src="./images/user-3.png"
+                  alt="client image"
+                />
+                <p class="text-center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Harum a debitis similique ipsam enim delectus.
+                </p>
+                <!-- ratings -->
+                <div class="ratings">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+
+                <!-- name and occupation -->
+                <h5 class="mt-3">Muhammad Jaber</h5>
+                <span class="occupation">Web Developer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial section ends -->
+    </main>
     <!-- main section end -->
+    <!-- frequently ask section starts -->
+    <section class="mg-top">
+      <div class="container">
+        <div class="section-header">
+          <!-- section header -->
+          <h2 class="pb-4">
+            Frequently <span class="text-danger">ask Questions</span>
+          </h2>
+        </div>
+
+        <!-- question section -->
+        <div class="row g-5">
+          <!-- one -->
+          <div class="col-12 col-lg-6">
+            <img src="./images/faq.png" alt="image of faq" class="img-fluid" />
+          </div>
+
+          <!-- two -->
+          <div class="col-12 col-lg-6">
+            <div class="accordion" id="accordionExample">
+              <!-- one -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What are the most important things I should know about
+                    riding a bike?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <!-- two -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How can I tell if my helmet is old and I need a new one?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <!-- three -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    My bike has been in storage is it safe to ride?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+
+              <!-- four -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What rules should I follow when riding my bike?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                    <code>.accordion-body</code>, though the transition does
+                    limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- frequently ask section ends -->
     <!-- footer section starts -->
-    <footer></footer>
+    <footer class="mg-top">
+      <div class="container">
+        <div class="wrapper">
+          <div class="social-links">
+            <!-- download and license -->
+            <div class="download-and-license mb-2">
+              <a href="#">Download Now</a>
+              <a href="#">License</a>
+            </div>
+
+            <!-- page links -->
+            <div class="page-links">
+              <a href="#">About</a>
+              <a href="#">Features</a>
+              <a href="#">Pricing</a>
+              <a href="#">Careers</a>
+              <a href="#">Help</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </div>
+
+          <!-- download buttons -->
+          <div class="get-the-app">
+            <h3>Get the App</h3>
+            <a href="#"
+              ><img
+                class="img-fluid"
+                src="./images/android.png"
+                alt="android app image"
+            /></a>
+            <a href="#"
+              ><img
+                class="img-fluid"
+                src="./images/ios.png"
+                alt="ios app image"
+            /></a>
+          </div>
+
+          <!-- copy right info -->
+          <p class="copy-right mt-3">
+            <span><i class="fa-regular fa-copyright"></i></span> 2020 bike. All
+            rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
     <!-- footer section ends -->
     <!-- js file link -->
     <script src="./js/bootstrap.bundle.min.js"></script>
